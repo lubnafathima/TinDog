@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+#header {
+    width: 100vw;
+    height: auto;
+    background: linear-gradient(#FD297B, #FF5864, #FF655B);
+    padding: 0 15vw;
+    color: #fff;
+}
+.navbar {
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-nav {}
+.logo {
+    font-size: 2em;
+}
+.right-nav {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-item {
+    color: rgb(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: .2s;
+}
+.nav-item:hover {
+    color: #fff;
+}
+.title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-title, .right-title {
+    width: 50%;
+}
+.left-title {
+    width: 40%;
+}
+.left-title h1 {
+    font-size: 2.5rem;
+}
+.left-title .btn {
+    margin: 2rem 0;
+    display: flex;
+    text-align: center;
+}
+.btn-l {
+    padding: .5rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-right: 2em;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.btn-l:hover {
+    /* background-color: rgb(0, 0, 0, 0.2);
+    border: 1px solid #fff; */
+    background-color: #fff;
+    color: #000;
+}
+.btn-r {
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: .5rem;
+    background-color: none;
+}
+.btn-r:hover {
+    /* border: none; */
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
+.right-title {}
+.right-title img {
+    width: 50%;
+    transform: rotate(30deg);
+    float: right;
+    margin-bottom: -30%;
+}
+.content {
+    position: absolute;
+    z-index: 1;
+}
+#features {
+    background-color: #fff;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.features-item {
+    width: 20vw;
+    margin: 2em;
+    text-align: center;
+}
+.features-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: .5em;
+}
+.features-item p {
+    font-size: 1rem;
+}
+#testimonials {
+    background: linear-gradient(#FD297B, #FF5864, #FF655B);
+    padding: 5em;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+#testimonials h2 {
+    font-size: 4rem;
+    text-align: center;
+}
+.testimonials-item {
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials-item img {
+    width: 6vw;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+.testimonials-item em {
+    font-size: 1.2rem;
+}
+#press {
+    width: 100vw;
+    background-color: #FF655B;
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#press img {
+    width: 15%;
+}
+#pricing {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 2rem;
+}
+#pricing h2 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+#pricing p {
+    font-size: 1.2rem;
+}
+#pricing-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 80vw;
+}
+#pricing-item {
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    line-height: 7vh;
+}
+#pricing-item h3 {
+    background-color: rgb(0, 0, 0, 0.2);
+    padding: .5rem 2rem;
+    font-size: 1.2rem;
+}
+#pricing-body {
+    padding: 1rem;
+}
+#pricing-item h2 {
+    font-size: 1.5rem;
+}
+#pricing-item p {
+    font-size: 1rem;
+}
+#pricing-item button {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: .5rem 0;
+    transition: .2s ease-in-out;
+}
+#pricing-item button:hover {
+    background: linear-gradient(#FD297B, #FF5864, #FF655B);
+}
+#cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: linear-gradient(#FD297B, #FF5864, #FF655B);
+    padding: 2rem 5rem;
+}
+#cta h3 {
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+}
+#cta-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+#cta-btn .btn-l {
+    color: #fff;
+}
+#cta-btn .btn-l:hover {
+    color: #000;
+}
+#footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer {
+    font-size: 1rem;
+}
